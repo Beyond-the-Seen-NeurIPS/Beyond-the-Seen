@@ -110,7 +110,7 @@ sd_model = StableDiffusionPipeline.from_pretrained(
 
 ### (5) Boosting prompt
 
-Download the [checkpoints](https://pan.baidu.com/share/init?surl=OkWiRnnTmXg6mJrECjuVzQ&pwd=5tbr) related to the boosting prompt and add the model path to generate unseen-class data.
+Download the [checkpoints](https://pan.baidu.com/share/init?surl=OkWiRnnTmXg6mJrECjuVzQ&pwd=5tbr) related to the boosting prompt and add the model path.
 
 ```
 # scripts/caspl/beyond/base2new_train_beyond_student.sh
